@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MultiVista Trabajos</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Contact_fragment">Contact fragment</string>
+    <string name="Home_fragment">Home fragment</string>
+    <string name="Share_Fragment">Share Fragment</string>
+    <string name="About_Fragment">About Us Fragment</string>
+    <string name="Settings_Fragment">Settings Fragment</string>
+
+</resources>

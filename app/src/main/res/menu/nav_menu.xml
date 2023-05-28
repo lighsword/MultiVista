@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="Share"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/info"
+            android:title="About Us"/>
+    </group>
+    <item
+        android:title="Ejercicios">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+            <item android:id="@+id/nav_counter"
+                android:icon="@drawable/exercises"
+                android:title="Counter">
+            </item>
+                <item android:id="@+id/nav_dado"
+                    android:icon="@drawable/exercises"
+                    android:title="Dado">
+                </item>
+            </group>
+            </menu>
+    </item>
+
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/log"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>
+
